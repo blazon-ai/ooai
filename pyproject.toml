@@ -26,6 +26,8 @@ classifiers = [
 dependencies = [
   "fastapi",
   "pydantic[dotenv]",
+  "pyllamacpp",
+  "uvicorn",
 ]
 dynamic = ["version"]
 
